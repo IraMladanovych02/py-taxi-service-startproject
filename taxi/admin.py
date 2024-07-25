@@ -26,5 +26,5 @@ class DriverAdmin(UserAdmin):
 
 @admin.register(Manufacturer)
 class ManufacturerAdmin(admin.ModelAdmin):
-    list_display = ["name", "country",]
-    search_fields = ["name",]
+    list_display = ["format", "country",]
+    search_fields = ["format", "country",]
